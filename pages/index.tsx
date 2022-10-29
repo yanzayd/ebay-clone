@@ -12,7 +12,7 @@ import { BanknotesIcon, ClockIcon } from "@heroicons/react/24/outline";
 
 const Home: NextPage = () => {
   const { contract } = useContract(
-    process.env.NEXT_PUBLIC_MARKETPALCE_CONTRACT,
+    process.env.NEXT_PUBLIC_MARKETPLACE_CONTRACT,
     "marketplace"
   );
 
