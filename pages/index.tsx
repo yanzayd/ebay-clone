@@ -65,7 +65,7 @@ const Home: NextPage = () => {
                   >
                     <p>
                       {listing.type === ListingType.Direct
-                        ? "Buy Noe"
+                        ? "Buy Now"
                         : "Auction"}
                     </p>
                     {listing.type === ListingType.Direct ? (
