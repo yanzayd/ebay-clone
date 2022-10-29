@@ -29,8 +29,8 @@ function Create({}: Props) {
 
   const ownedNfts = useOwnedNFTs(collectionContract, address);
 
-  console.log("the address is:  ", address);
-  console.log("the owened Nfts: ", ownedNfts);
+  //   console.log("the address is:  ", address);
+  //   console.log("the owened Nfts: ", ownedNfts);
   return (
     <div>
       <Header />
