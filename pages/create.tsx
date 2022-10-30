@@ -106,7 +106,7 @@ function Create({}: Props) {
               </div>
               <button
                 className="bg-blue-600 text-white rounded-lf p-4 mt-8"
-                type="aubmit"
+                type="submit"
               >
                 Create Listing
               </button>
